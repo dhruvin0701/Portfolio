@@ -8,6 +8,7 @@ import ProjectsPage from "./pages/ProjectsPage";
 import Skills from "./pages/skill";
 import HeroPage from "./pages/HeroPage";
 import Footer from "./component/Footer";
+import AdSense from "./component/AdSense";
 import { HelmetProvider, Helmet } from "react-helmet-async";
 
 function App() {
@@ -80,6 +81,7 @@ function App() {
         <AboutPage />
         <Skills />
         <ProjectsPage />
+        <AdSense />
         <CreateMagicPage />
         <Footer />
       </div>
